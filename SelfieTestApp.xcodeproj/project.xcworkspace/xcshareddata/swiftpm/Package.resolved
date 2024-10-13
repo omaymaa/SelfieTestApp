@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "valifyselfieframework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/omaymaa/ValifySelfieFramework.git",
+      "state" : {
+        "revision" : "5f6e988432f45b94945fbf2b4b2e9c8ac14a71a8",
+        "version" : "1.1.6"
+      }
+    }
+  ],
+  "version" : 2
+}
