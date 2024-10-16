@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/omaymaa/ValifySelfieFramework.git",
       "state" : {
-        "revision" : "5f6e988432f45b94945fbf2b4b2e9c8ac14a71a8",
-        "version" : "1.1.6"
+        "revision" : "63cb3c0d9464b6c9908de357817cbfb6256b8dc3",
+        "version" : "1.1.8"
       }
     }
   ],

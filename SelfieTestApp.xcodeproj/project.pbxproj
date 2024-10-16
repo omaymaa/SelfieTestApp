@@ -9,13 +9,12 @@
 /* Begin PBXBuildFile section */
 		421B90FF2CB99A72006392C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421B90FE2CB99A72006392C9 /* AppDelegate.swift */; };
 		421B91012CB99A72006392C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421B91002CB99A72006392C9 /* SceneDelegate.swift */; };
-		421B91032CB99A72006392C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421B91022CB99A72006392C9 /* ViewController.swift */; };
+		421B91032CB99A72006392C9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421B91022CB99A72006392C9 /* HomeViewController.swift */; };
 		421B91062CB99A72006392C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421B91042CB99A72006392C9 /* Main.storyboard */; };
 		421B91082CB99A73006392C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421B91072CB99A73006392C9 /* Assets.xcassets */; };
 		421B910B2CB99A73006392C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421B91092CB99A73006392C9 /* LaunchScreen.storyboard */; };
 		424523C42CBC025600A492EE /* ValifySelfieFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 424523C32CBC025600A492EE /* ValifySelfieFramework */; };
 		424523C72CBC223300A492EE /* GoogleMVFaceDetectorResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 424523C62CBC223300A492EE /* GoogleMVFaceDetectorResources.bundle */; };
-		42800FF72CBC470E00543A36 /* ApprovalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42800FF62CBC470E00543A36 /* ApprovalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,13 +34,12 @@
 		421B90FB2CB99A72006392C9 /* SelfieTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfieTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		421B90FE2CB99A72006392C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		421B91002CB99A72006392C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		421B91022CB99A72006392C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		421B91022CB99A72006392C9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		421B91052CB99A72006392C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		421B91072CB99A73006392C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		421B910A2CB99A73006392C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		421B910C2CB99A73006392C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		424523C62CBC223300A492EE /* GoogleMVFaceDetectorResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMVFaceDetectorResources.bundle; sourceTree = "<group>"; };
-		42800FF62CBC470E00543A36 /* ApprovalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +75,7 @@
 			children = (
 				421B90FE2CB99A72006392C9 /* AppDelegate.swift */,
 				421B91002CB99A72006392C9 /* SceneDelegate.swift */,
-				421B91022CB99A72006392C9 /* ViewController.swift */,
-				42800FF62CBC470E00543A36 /* ApprovalViewController.swift */,
-				421B91042CB99A72006392C9 /* Main.storyboard */,
+				42DDC9802CC03C4700429895 /* Home */,
 				424523C52CBC220700A492EE /* Recources */,
 				421B91072CB99A73006392C9 /* Assets.xcassets */,
 				421B91092CB99A73006392C9 /* LaunchScreen.storyboard */,
@@ -94,6 +90,31 @@
 				424523C62CBC223300A492EE /* GoogleMVFaceDetectorResources.bundle */,
 			);
 			path = Recources;
+			sourceTree = "<group>";
+		};
+		42DDC97D2CC03C2400429895 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				421B91022CB99A72006392C9 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		42DDC97E2CC03C3200429895 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				421B91042CB99A72006392C9 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		42DDC9802CC03C4700429895 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				42DDC97D2CC03C2400429895 /* Controller */,
+				42DDC97E2CC03C3200429895 /* View */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,8 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42800FF72CBC470E00543A36 /* ApprovalViewController.swift in Sources */,
-				421B91032CB99A72006392C9 /* ViewController.swift in Sources */,
+				421B91032CB99A72006392C9 /* HomeViewController.swift in Sources */,
 				421B90FF2CB99A72006392C9 /* AppDelegate.swift in Sources */,
 				421B91012CB99A72006392C9 /* SceneDelegate.swift in Sources */,
 			);
